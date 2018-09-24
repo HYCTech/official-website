@@ -1,0 +1,362 @@
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0;
+}
+ p {
+     margin: 0 !important;
+ }
+
+/*第一页面*/
+#first {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to top left, #36c8ff, #09adff);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.title {
+    width: 100%;
+}
+
+#title > ul {
+    width: 100%;
+    text-align: right;
+    padding-top: 1% !important;
+}
+
+#title > ul > li {
+    width: 8%;
+    font-size: 0.5em;
+    font-weight: bold;
+    height: 2.5em;
+    line-height: 2.5em;
+    border-radius: 4px;
+    text-align: center;
+    float: right;
+    margin-right: 1%;
+}
+
+.on {
+    background-color: #ffffff;
+    color: #1075fe;
+}
+
+.unon {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #1075fe;
+}
+
+.left1 {
+    float: left;
+    width: 45%;
+    position: relative;
+    height: 90%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.t1 {
+    font-weight: bolder;
+    font-size: 6em;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.t11 {
+    font-size: 1.8em;
+    color: white;
+}
+
+.t2 {
+    font-size: 2.5em;
+    color: white;
+    float: right;
+    font-weight: 300;
+}
+
+.t3 {
+    float: right;
+    margin-right: 15% !important;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.t4 {
+    width: 100%;
+    margin-top: 25% !important;
+}
+
+#t4 li {
+    width: 17%;
+    float: right;
+    position: relative;
+    text-align: right;
+}
+
+#first > div > ul > li > img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.right1 {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+    height: 90%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.right1>img {
+    width: 130%;
+    height: 100%;
+}
+
+/*第二页*/
+#second {
+    background-image: url("images/bg1.png");
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 4%;
+}
+
+.left2 {
+    margin-left: 7%;
+    width: 35%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.left_top {
+    float: left;
+    background-image: url("images/wbg1.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    height: 23%;
+    width: 100%;
+    padding: 5%;
+}
+.left_top>img {
+    margin-left: 4%;
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.title1 {
+    float: left;
+    margin-left: 5%;
+    width: 65%;
+    position: relative;
+}
+
+.title1>h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.title1>p {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.second_img {
+    padding-top: 20%;
+    margin-left: 30%;
+    float: left;
+    width: 45%;
+    position: relative;
+}
+
+.right2 {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+    height: 100%;
+}
+
+.second>img {
+    padding-top: 12%;
+    width: 52%;
+    margin-left: 2%;
+}
+
+
+
+
+
+/*第三页*/
+#third {
+    background-image: url("images/bg2.png");
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 4%;
+}
+
+.left_top1 {
+    float: left;
+    background-image: url("images/wbg2.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    height: 23%;
+    width: 100%;
+    padding: 5%;
+}
+.left_top1>img {
+    margin-left: 4%;
+    float: left;
+    width: 22%;
+    position: relative;
+}
+
+.third_img {
+    padding-top: 20%;
+    margin-left: 30%;
+    float: left;
+    width: 58%;
+    position: relative;
+}
+
+.third>img {
+    padding-top: 12%;
+    width: 52%;
+    margin-left: 2%;
+}
+
+
+/*第四页*/
+#forth {
+    background-image: url("images/bg3.png");
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 4%;
+}
+
+.left_top2 {
+    float: left;
+    background-image: url("images/wbg3.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    height: 23%;
+    width: 100%;
+    padding: 5%;
+}
+.left_top2>img {
+    margin-left: 4%;
+    float: left;
+    width: 22%;
+    position: relative;
+}
+
+.forth_img {
+    padding-top: 20%;
+    margin-left: 45%;
+    float: left;
+    width: 80%;
+    position: relative;
+}
+
+.forth>img {
+    padding-top: 12%;
+    width: 52%;
+    margin-left: 2%;
+}
+
+
+/*第五页*/
+#fifth {
+    background-image: url("images/bg4.png");
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 4%;
+}
+
+.left_top3 {
+    float: left;
+    background-image: url("images/wbg4.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    height: 23%;
+    width: 100%;
+    padding: 5%;
+}
+.left_top3>img {
+    margin-left: 4%;
+    float: left;
+    width: 22%;
+    position: relative;
+}
+
+.fifth_img {
+    padding-top: 33%;
+    margin-left: 12%;
+    float: left;
+    width: 80%;
+    position: relative;
+}
+
+.fifth>img {
+    padding-top: 5%;
+    width: 40%;
+    margin-left: 11%;
+}
+
+.fifth_1 {
+    width: 65%;
+    z-index: 99;
+    position: absolute;
+    bottom: 0%;
+    margin-left: -20%;
+}
+
+/*第六页*/
+#sixth {
+    background-image: url("images/bg5.png");
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 4%;
+}
+
+.left_top4 {
+    float: left;
+    background-image: url("images/wbg5.png");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    height: 23%;
+    width: 100%;
+    padding: 5%;
+}
+.left_top4>img {
+    margin-left: 4%;
+    float: left;
+    width: 22%;
+    position: relative;
+}
+
+.sixth_img {
+    margin-left: 10%;
+    padding-left: 3%;
+    float: left;
+    width: 90%;
+    position: relative;
+}
+
+.sixth>img {
+    padding-top: 5%;
+    width: 35%;
+    margin-left: 5%;
+}
